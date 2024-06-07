@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    border: none;
+    background: #EEEEEE;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.white{
+    background: #fff;
+    height: 100vh;
+}
+.dark {
+    background: #414141;
+    color: #fff;
+    height: 100vh;
+    .MuiPaper-root{
+        background: #414141;
+    }
+}
